@@ -1,0 +1,96 @@
+*{
+  margin:0;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  margin: 2% 20% 10%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 1%;
+  padding: 10px
+}
+
+.logo{
+  width: 200px;
+  margin: 50px auto 5px;
+  display: block;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+  color: #1cd400;
+}
+
+nav{
+  background-color: #1cd400;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
+}
+
+.buttons{
+  text-align: center;
+}
+
+main{
+  color: white;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+main h2{
+  display: inline-block;
+}
+
+.monopattino{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.posizione{
+  font-size: 12px;
+  margin-top: 15px;
+
+}
+
+.posizione::before{
+  content: "\2192";
+}
+
+.carica{
+  font-size: 12px;
+}
+
+/* Imposto la percentuale di batteria */
+
+#carica1{
+  width:30%;
+  background-color: #edbb3b;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#carica2{
+  width: 70%;
+  background-color: #2eb02c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#carica3{
+  width: 10%;
+  background-color: #e84625;
+  padding: 20px;
+  border-radius: 5px;
+
+}
